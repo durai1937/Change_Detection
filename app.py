@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 import streamlit as st
 from PIL import Image
 
+
 # Function to load images
 def load_image(image_file, is_gray=False):
     image = Image.open(image_file)
